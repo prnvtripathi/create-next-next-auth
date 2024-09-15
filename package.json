@@ -1,0 +1,19 @@
+{
+  "name": "create-next-app-next-auth",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "bin": {
+    "create-next-auth-app": "./index.js"
+  },
+  "author": "Pranav Tripathi",
+  "license": "ISC",
+  "description": "CLI tool to scaffold Next.js with NextAuth",
+  "dependencies": {
+    "inquirer": "^10.2.2"
+  }
+}
